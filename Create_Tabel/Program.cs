@@ -19,7 +19,7 @@ namespace Create_Tabel
             SqlConnection con = null;
             try
             {
-                con = new SqlConnection("data source=DESKTOP-301VMEB\\ZAKI;database=ProdiTI;Integrated Security = TRUE");
+                con = new SqlConnection("data source=DESKTOP-3O1VMEB\\ZAKI;database=ProdiTI;Integrated Security = TRUE");
                 con.Open();
 
                 SqlCommand cm = new SqlCommand("create table Mahasiswa_Coba (NIM Char(12) not null primary key, Nama Varchar(50), Alamat Varchar(255), " +
